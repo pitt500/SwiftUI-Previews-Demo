@@ -11,8 +11,25 @@ import SwiftUI
 
 struct DishCell: View {
   var body: some View {
-    Text("DishCell")
+    HStack {
+      
+      
+      Image("e1")
+        .resizable()
+        .frame(width: 100, height: 100, alignment: .center)
+        .clipShape(Circle())
+      VStack(alignment: .leading) {
+        Text("DishCell")
+        Text("$35")
+      }
+      
+    }.padding(5)
   }
 }
 
 
+struct DishCell_Preview: PreviewProvider {
+  static var previews: some View {
+    DishCell().previewLayout(.sizeThatFits)
+  }
+}
