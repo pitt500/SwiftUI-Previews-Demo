@@ -14,6 +14,7 @@
 		B5B43B9B23A057B2001BA6A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B43B9A23A057B2001BA6A4 /* Preview Assets.xcassets */; };
 		B5B43B9E23A057B2001BA6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B43B9C23A057B2001BA6A4 /* LaunchScreen.storyboard */; };
 		B5B43BA623A419EB001BA6A4 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B43BA523A419EB001BA6A4 /* DishCell.swift */; };
+		B5B43BA923A463DF001BA6A4 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B43BA823A463DF001BA6A4 /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B5B43B9D23A057B2001BA6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B43B9F23A057B2001BA6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B43BA523A419EB001BA6A4 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
+		B5B43BA823A463DF001BA6A4 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B5B43B9023A057B0001BA6A4 /* SwiftUI-Preview-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				B5B43BA723A463D3001BA6A4 /* Models */,
 				B5B43B9123A057B0001BA6A4 /* AppDelegate.swift */,
 				B5B43B9323A057B0001BA6A4 /* SceneDelegate.swift */,
 				B5B43B9523A057B0001BA6A4 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				B5B43B9A23A057B2001BA6A4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5B43BA723A463D3001BA6A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5B43BA823A463DF001BA6A4 /* Dish.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B43B9223A057B0001BA6A4 /* AppDelegate.swift in Sources */,
+				B5B43BA923A463DF001BA6A4 /* Dish.swift in Sources */,
 				B5B43BA623A419EB001BA6A4 /* DishCell.swift in Sources */,
 				B5B43B9423A057B0001BA6A4 /* SceneDelegate.swift in Sources */,
 				B5B43B9623A057B0001BA6A4 /* ContentView.swift in Sources */,
