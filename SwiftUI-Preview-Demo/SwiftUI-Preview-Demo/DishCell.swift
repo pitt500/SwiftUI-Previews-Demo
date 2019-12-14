@@ -30,6 +30,11 @@ struct DishCell: View {
 
 struct DishCell_Preview: PreviewProvider {
   static var previews: some View {
-    DishCell().previewLayout(.sizeThatFits)
+    Group {
+      ForEach(ContentSizeCategory.allCases, id: \.hashValue) { category in
+        DishCell().previewLayout(.sizeThatFits)
+          .environment(\.sizeCategory, category)
+      }
+    }
   }
 }
